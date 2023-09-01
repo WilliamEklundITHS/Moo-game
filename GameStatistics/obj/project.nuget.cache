@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Tr8RUjrD800AwTCi4+heSMBL9k6E8gzVoB3fcOVXpL5GU3wPlLbk3eznVYNa6FbL+7ia5XhJLN+T6LKkI6m/Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Clean-Code\\GameStatistics\\GameStatistics.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

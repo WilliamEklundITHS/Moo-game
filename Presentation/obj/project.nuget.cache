@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z7uxysuUfG6le+7VwBdgo0umYueor1XLLOSO3Qg74vyfO9V+NrQgiklWmAqu+3IfKeOfCK+QRoSisr4A/iF1sg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Clean-Code\\Presentation\\Presentation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

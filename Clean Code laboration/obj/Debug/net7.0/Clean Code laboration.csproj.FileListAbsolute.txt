@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\bin\Debug\net7.0\Clean Code laboration.exe
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\bin\Debug\net7.0\Clean Code laboration.deps.json
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\bin\Debug\net7.0\Clean Code laboration.runtimeconfig.json
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\bin\Debug\net7.0\Clean Code laboration.dll
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\bin\Debug\net7.0\Clean Code laboration.pdb
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\obj\Debug\net7.0\Clean Code laboration.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\obj\Debug\net7.0\Clean Code laboration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\obj\Debug\net7.0\Clean Code laboration.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\obj\Debug\net7.0\Clean Code laboration.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\obj\Debug\net7.0\Clean Code laboration.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\obj\Debug\net7.0\Clean Code laboration.dll
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\obj\Debug\net7.0\refint\Clean Code laboration.dll
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\obj\Debug\net7.0\Clean Code laboration.pdb
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\obj\Debug\net7.0\Clean Code laboration.genruntimeconfig.cache
+C:\Users\Admin\source\repos\Clean-Code\Clean Code laboration\obj\Debug\net7.0\ref\Clean Code laboration.dll
