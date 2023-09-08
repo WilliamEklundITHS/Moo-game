@@ -1,29 +1,28 @@
 ﻿using GameStatistics.FileHandler;
 using Models;
+using Models.Enums;
 
 namespace GameStatistics
 {
     public class LeaderboardManager
     {
-        private readonly IFileHandler fileHandler;
-        private List<Player>? players;
-        private Leaderboard leaderboard;
-
-
-        public LeaderboardManager(IFileHandler fileHandler)
+        private readonly IFileHandler _fileHandler;
+        private List<Player>? _players;
+        private readonly GameVariant _gameVariant;
+        public LeaderboardManager(IFileHandler fileHandler, GameVariant gameVariant)
         {
-            this.fileHandler = fileHandler;
-            leaderboard = new();
+            this._fileHandler = fileHandler;
+            _gameVariant = gameVariant;
         }
         public void InitializeLeaderboard()
         {
-            players = fileHandler.ReadPlayersFromFile();
-            leaderboard.CalculateLeaderboard(players);
+            _players = _fileHandler.ReadPlayersFromFile(_gameVariant);
+            Leaderboard.CalculateLeaderboard(_players);
 
         }
         public void DisplayLeaderboard()
         {
-            leaderboard.DisplayLeaderboard(players);
+            Leaderboard.DisplayLeaderboard(_players);
         }
     }
 }

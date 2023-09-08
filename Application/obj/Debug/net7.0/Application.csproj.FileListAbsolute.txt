@@ -1,0 +1,17 @@
+C:\Users\Admin\source\repos\Clean-Code\Application\bin\Debug\net7.0\Application.deps.json
+C:\Users\Admin\source\repos\Clean-Code\Application\bin\Debug\net7.0\Application.dll
+C:\Users\Admin\source\repos\Clean-Code\Application\bin\Debug\net7.0\Application.pdb
+C:\Users\Admin\source\repos\Clean-Code\Application\bin\Debug\net7.0\GameStatistics.dll
+C:\Users\Admin\source\repos\Clean-Code\Application\bin\Debug\net7.0\Models.dll
+C:\Users\Admin\source\repos\Clean-Code\Application\bin\Debug\net7.0\Models.pdb
+C:\Users\Admin\source\repos\Clean-Code\Application\bin\Debug\net7.0\GameStatistics.pdb
+C:\Users\Admin\source\repos\Clean-Code\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Clean-Code\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Clean-Code\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Clean-Code\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Clean-Code\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Clean-Code\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+C:\Users\Admin\source\repos\Clean-Code\Application\obj\Debug\net7.0\Application.dll
+C:\Users\Admin\source\repos\Clean-Code\Application\obj\Debug\net7.0\refint\Application.dll
+C:\Users\Admin\source\repos\Clean-Code\Application\obj\Debug\net7.0\Application.pdb
+C:\Users\Admin\source\repos\Clean-Code\Application\obj\Debug\net7.0\ref\Application.dll

@@ -1,4 +1,4 @@
-﻿using Application;
+﻿using Models.Enums;
 
 namespace Presentation
 {
@@ -7,6 +7,10 @@ namespace Presentation
         public static string WelcomeMessage()
         {
             return "Welcome to the Moo Game!\n";
+        }
+        public static string GetGameVariantPrompt()
+        {
+            return $" Select a game: \n0 - Moo\n1 - MasterMind";
         }
         public static string GetPlayerPrompt()
         {

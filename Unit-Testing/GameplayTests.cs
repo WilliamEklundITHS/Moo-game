@@ -1,4 +1,5 @@
 ﻿using Application;
+using Models.Enums;
 using Xunit;
 
 namespace UnitTesting

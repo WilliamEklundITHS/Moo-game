@@ -1,34 +1,29 @@
-﻿using System.Text.Json.Serialization;
+﻿using Models.Enums;
+using System.Text.Json.Serialization;
 
 namespace Models
 {
     public class Player
     {
         public string Name { get; }
-        //public List<string> Guesses { get; } = new List<string>();
         public int TotalGamesPlayed { get; set; }
         public int TotalGuesses { get; set; }
-
-
+        public GameVariant GameVariant { get; set; }
 
         [JsonConstructor]
-        public Player(string name, int totalGamesPlayed, int totalGuesses)
+        public Player(GameVariant gameVariant, string name, int totalGamesPlayed, int totalGuesses)
         {
+            GameVariant = gameVariant;
             Name = name;
             TotalGamesPlayed = totalGamesPlayed;
             TotalGuesses = totalGuesses;
 
         }
-        public Player(string name)
+        public Player(GameVariant gameVariant, string name)
         {
+            GameVariant = gameVariant;
             Name = name;
         }
-
-        //public void AddGuess(string guess)
-        //{
-        //    Guesses.Add(guess);
-        //}
-
         public void UpdateExistingPlayerStatistics(Player player)
         {
             TotalGamesPlayed++;

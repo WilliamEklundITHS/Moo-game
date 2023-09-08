@@ -1,5 +1,6 @@
 ﻿{
   "FileSettings": {
-    "FileUrl": "C:/Users/Admin/game_stats.json"
+    "StaticFilePath": "C:/Users/Admin/game_stats.json",
+    "FilePath": "{FilePath}/{FileName}"
   }
 }

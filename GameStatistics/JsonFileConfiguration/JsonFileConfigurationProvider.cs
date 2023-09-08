@@ -6,32 +6,37 @@ namespace GameStatistics.JsonFileConfiguration
 {
     public class JsonFileConfigurationProvider : ConfigurationProvider
     {
-        private readonly string _filePath;
+        private readonly string _configFile;
 
-        public JsonFileConfigurationProvider(string filePath)
+        public JsonFileConfigurationProvider(string configFile)
         {
-            _filePath = filePath;
+            _configFile = configFile;
         }
 
         public override void Load()
         {
-            var fileContents = File.ReadAllText($"{RetrieveDirectoryPath()}/{_filePath}");
+            var desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop).Replace("\\", "/");
+            var fileContents = File.ReadAllText($"{GetDirectoryPathForJsonConfig()}/{_configFile}");
             var jsonConfig = JsonSerializer.Deserialize<JsonElement>(fileContents);
-
             if (jsonConfig.TryGetProperty("FileSettings", out var fileSettings))
             {
-                if (fileSettings.TryGetProperty("FileUrl", out var fileUrl))
+                if (fileSettings.TryGetProperty("FilePath", out var filePath))
                 {
-                    Data["FileSettings:FileUrl"] = fileUrl.GetString();
+                    Data["FileSettings:FilePath"] = filePath.GetString().Replace("{FilePath}", desktop).Replace("{FileName}", "game_stats.json");
+                }
+
+                if (fileSettings.TryGetProperty("StaticFilePath", out var customFilePath))
+                {
+                    Data["FileSettings:StaticFilePath"] = customFilePath.GetString();
                 }
             }
         }
-        private static string RetrieveDirectoryPath()
+        private static string GetDirectoryPathForJsonConfig()
         {
             StackTrace stackTrace = new StackTrace(true);
             StackFrame frame = stackTrace.GetFrame(0);
-            string filePath = frame.GetFileName();
-            string directoryPath = Path.GetDirectoryName(filePath);
+            string CustomFilePath = frame.GetFileName();
+            string directoryPath = Path.GetDirectoryName(CustomFilePath);
             return directoryPath.Replace("\\", "/");
         }
     }

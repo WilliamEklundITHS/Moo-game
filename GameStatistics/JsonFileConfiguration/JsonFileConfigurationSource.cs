@@ -4,16 +4,16 @@ namespace GameStatistics.JsonFileConfiguration
 {
     public class JsonFileConfigurationSource : IConfigurationSource
     {
-        public string FilePath { get; set; }
+        private readonly string _configurationName;
 
-        public JsonFileConfigurationSource(string filePath)
+        public JsonFileConfigurationSource(string configFileName)
         {
-            FilePath = filePath;
+            _configurationName = configFileName;
         }
 
         public IConfigurationProvider Build(IConfigurationBuilder builder)
         {
-            return new JsonFileConfigurationProvider(FilePath);
+            return new JsonFileConfigurationProvider(_configurationName);
         }
     }
 

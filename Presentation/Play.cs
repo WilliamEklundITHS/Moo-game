@@ -8,14 +8,8 @@ class Play
     {
         IUserInterface userInterface = new ConsoleUI();
         GameController game = new GameController(userInterface);
-        bool playAgain = true;
-        while (playAgain)
-        {
-            game.Play();
-            playAgain = userInterface.AskForPlayAgain();
-        }
+        game.Play();
     }
-
 }
 
 

@@ -1,4 +1,6 @@
 ﻿using Models;
+using Models.Enums;
+
 namespace Application
 {
     public class Gameplay

@@ -1,7 +1,12 @@
-﻿namespace Application
+﻿
+using Models.Enums;
+
+namespace Application
 {
     public interface IUserInterface
     {
+        void DisplayGameVariants();
+        GameVariant GetGameVariant();
         void DisplayInstructions();
         string GetUsername();
         string GetGuess();
